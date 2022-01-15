@@ -58,8 +58,9 @@ main .delivery .delivery-item.sm {
 }
 
 main .questions {
-  margin-top: 78px;
+  padding-top: 78px;
   background-color: #fff8e9;
+  padding-bottom: 68px;
 }
 
 main .questions_wrapper {

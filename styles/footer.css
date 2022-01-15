@@ -1,0 +1,68 @@
+footer {
+  background: var(--orange);
+  padding: 100px 0;
+}
+
+footer .footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .footer_wrapper .footer_links ul {
+  max-width: 289px;
+}
+
+footer .footer_wrapper .footer_links ul li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 211.88%;
+  color: #3e3b3b;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+
+footer .footer_contacts ul {
+  max-width: 323px;
+}
+
+footer .footer_contacts ul li {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 211.88%;
+  color: #3e3b3b;
+  word-wrap: break-word;
+  cursor: pointer;
+  position: relative;
+  padding-left: 32px;
+}
+
+footer .footer_contacts ul li:before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: "";
+  width: 26px;
+  height: 26px;
+  background-color: #3e3b3b;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer .footer_contacts ul li a {
+  display: block;
+  all: inherit;
+  padding-left: 0;
+}
+
+footer .footer_contacts ul li.adress:before {
+  background-image: url(../img/maps-and-flags\ 1.png);
+}
