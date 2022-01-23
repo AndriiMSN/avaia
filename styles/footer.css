@@ -1,4 +1,20 @@
 footer {
+  background-color: var(--orange);
+  padding: 100px 0;
+}
+
+footer .footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* footer {
   background: var(--orange);
   padding: 100px 0;
 }
@@ -65,4 +81,4 @@ footer .footer_contacts ul li a {
 
 footer .footer_contacts ul li.adress:before {
   background-image: url(../img/maps-and-flags\ 1.png);
-}
+} */
